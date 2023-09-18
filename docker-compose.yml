@@ -1,0 +1,8 @@
+services:
+  pdfextractor:
+    container_name: pdfextractor
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
